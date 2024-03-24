@@ -31,6 +31,8 @@
 
 #![allow(incomplete_features)]
 #![feature(generic_const_exprs)]
+#![no_std]
+
 use const_assert::{Assert, IsTrue};
 
 pub trait IsPowerOf2 {}
